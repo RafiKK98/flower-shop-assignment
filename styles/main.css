@@ -1,9 +1,30 @@
+/* Universal style */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Lato';
 }
+
+/* Shared styles */
+.pink-text {
+    color:#E55473;
+}
+.section-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+.section-desc {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+
+/* Header section styles */
 .header-section {
     display: flex;
     justify-content: space-between;
@@ -35,4 +56,80 @@
     color: #FFF;
     font-size: 20px;
     font-weight: 700;
+}
+
+/* Featured Flowers Section Styles */
+.featured-flowers-section {
+    text-align: center;
+    margin: 180px 240px 64px;
+}
+.featured-flowers {
+    display: flex;
+    justify-content: space-around;
+    gap: 24px;
+}
+.flower {
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    /* background: rgba(167, 33, 98, 0.15); */
+}
+#flower1 {
+    background: rgba(167, 33, 98, 0.15);
+    padding: 110px 77px 0;
+}
+#flower2 {
+    background: rgba(5, 151, 160, 0.15);
+    padding: 117px 47px 51px;
+}
+#flower3 {
+    background: rgba(71, 125, 17, 0.15);
+    padding: 67px 75px 0;
+}
+.featured-flowers-captions {
+    display: flex;
+    justify-content: space-between;
+    margin: 22px 120px 0;
+}
+.featured-flowers-captions h5 {
+    color: #272727;
+    /* text-align: center; */
+    font-size: 24px;
+    font-weight: 400;
+    text-decoration-line: underline;
+}
+
+/* .flower > h5 {
+    position: absolute;
+    bottom: 0;
+} */
+
+/* Footer Section styles */
+footer {
+    /* height: 450px; */
+    background: #111010;
+    /* bottom: 0; */
+    text-align: center;
+    padding-top: 128px;
+    padding-bottom: 128px;
+}
+
+.footer-title {
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+.footer-desc {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0 650px 32px;
+}
+#copy-right-text {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
 }
