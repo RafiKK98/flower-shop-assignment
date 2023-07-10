@@ -12,7 +12,7 @@
 }
 .section-title {
     color: #272727;
-    text-align: center;
+    /* text-align: center; */
     font-size: 40px;
     font-weight: 700;
     margin-bottom: 24px;
@@ -112,7 +112,7 @@
     justify-content: space-around;
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
-    margin: 64px 240px;
+    margin: 64px 205px;
     padding-top: 86px;
 }
 .service img {
@@ -123,6 +123,58 @@
     text-align: center;
     font-size: 24px;
     font-weight: 400;
+}
+
+/* Hot Deals Section styles */
+.hot-deals-section {
+    display: flex;
+    justify-content: space-between;
+    height: 620px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    padding: 100px 330px;
+}
+.hot-deals-section h3 {
+    margin-top: 130px;
+}
+
+/* Instagram Section styles */
+.instagram-section {
+    text-align: center;
+    margin: 128px 240px 64px;
+}
+.instagram-images {
+    display: flex;
+    justify-content: space-around;
+    gap: 24px;
+}
+
+/* Newsletter Section styles */
+.newsletter-section {
+    text-align: center;
+    height: 449px;
+    border-radius: 8px;
+    background-image: url('../images/Rectangle\ 9.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 64px 205px 128px;
+}
+.newsletter-section h3 {
+    padding-top: 122px;
+}
+.email-input {
+    width: 700px;
+    height: 64px;
+    border: 0;
+    border-radius: 8px;
+    background: #FFF;
+    color: rgba(39, 39, 39, 0.60);
+    /* text-align: center; */
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 24px;
+    margin-right: 16px;
 }
 
 /* Footer Section styles */
