@@ -147,6 +147,29 @@
     gap: 24px;
 }
 
+/* Customer Review Section styles */
+.customer-review-section {
+    text-align: center;
+    height: 600px;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    padding: 100px 330px;
+}
+.customer-reviews-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    gap: 40px;
+}
+.customer-review > img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.customer-name {
+    margin: 15px 0;
+}
+
 /* Newsletter Section styles */
 .newsletter-section {
     text-align: center;
